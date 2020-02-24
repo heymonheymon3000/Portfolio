@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/layout_margin"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/movies_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingBottom="@dimen/frame_layout_padding">
+        <Button
+            android:id="@+id/movies_1_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/movies_1"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/button_text_size">
+        </Button>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/baking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/movies_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingBottom="@dimen/frame_layout_padding">
+        <Button
+            android:id="@+id/baking_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/baking"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/button_text_size">
+        </Button>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/material_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/baking"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingBottom="@dimen/frame_layout_padding">
+        <Button
+            android:id="@+id/material_design_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/material_design"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/button_text_size">
+        </Button>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/capstone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/material_design"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingBottom="@dimen/frame_layout_padding">
+        <Button
+            android:id="@+id/capstone_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/capstone"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/button_text_size">
+        </Button>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/movies_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/capstone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingBottom="@dimen/frame_layout_padding">
+        <Button
+            android:id="@+id/movies_2_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/movies_2"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/button_text_size">
+        </Button>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

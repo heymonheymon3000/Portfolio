@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="movies_1">Movies 1.0</string>
+    <string name="baking">Baking</string>
+    <string name="material_design">Material Design</string>
+    <string name="capstone">Capstone</string>
+    <string name="movies_2">Movies 2.0</string>
+</resources>
